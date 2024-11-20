@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>image_pub</name>
+  <version>0.0.1</version>
+  <description>ROS 2 Image Publisher</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>camera_info_manager</depend>
+  <depend>opencv</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
