@@ -14,5 +14,10 @@ This ROS 2 package converts a video file into a stream of `sensor_msgs/Image` me
 
 ## Requirements
 - ROS 2 (tested with Humble)
-- OpenCV 
+- OpenCV
+
+## Usage
+```
+ros2 launch image_pub image_pub.launch.py
+```
 
